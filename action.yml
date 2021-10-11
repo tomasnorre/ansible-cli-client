@@ -1,4 +1,4 @@
-name: "Ansible CLI Github Action"
+name: "Ansible CLI"
 description: "Allows one to run Ansible and Linux related commands"
 branding:
   icon: terminal
