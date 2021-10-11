@@ -13,7 +13,7 @@ You can also execute standard `Linux` commands as base `Docker` image is `ubuntu
 ## Example usage
 
 ```
-uses: tomasnorre/ansible-cli-action@v1
+uses: tomasnorre/ansible-cli-action@0.0.1
 with:
   command: "ansible-playbook main.yml"
 ```
