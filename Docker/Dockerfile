@@ -1,9 +1,7 @@
-FROM ubuntu:focal
+FROM alpine:3
 
-RUN apt-get update \
-  && apt install -y python3-pip
-
-RUN pip3 install ansible
+RUN apk add --no-cache ansible
+#RUN pip3 install ansible
 
 COPY entrypoint.sh /entrypoint.sh
 
