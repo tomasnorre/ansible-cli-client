@@ -17,3 +17,7 @@ uses: tomasnorre/ansible-cli-action@0.0.1
 with:
   command: "ansible-playbook main.yml"
 ```
+
+### Disclaimer
+
+This is heavily inspired and copied from https://github.com/RvuvuzelaM/ansible-cli-github-action with some build optimisations. 
