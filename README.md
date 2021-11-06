@@ -1,3 +1,8 @@
+# Important
+
+This is not needed, as ansible is build-in in the ubuntu GitHub Runners.
+I'll not follow this idea further.  
+
 # Ansible CLI Github Action
 
 This action is based on `alpine:3 ` image.  
